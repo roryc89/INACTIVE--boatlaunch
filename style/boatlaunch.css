@@ -1,0 +1,840 @@
+/*
+--------------------------------------------------
+#
+#   Boatlaunch ltd
+#   Copyright 2006
+#
+#   Original Author: Paul Bullivant
+#   Original Date Created: Nov 2005
+#
+#   Description:
+#       Style Sheet required
+#       in Boatlaunch
+#
+#
+#   $Author: paul $
+#   $Date: 2008/07/01 16:56:11 $
+#   $Revision: 1.2 $
+#
+# --------------------------------------------------
+*/
+
+
+/* ---------------------- */
+/* Boatlaunch styles	  */
+/* ---------------------- */	
+
+BODY
+{
+    BACKGROUND-COLOR: white;
+    FONT-FAMILY: Verdana, Helvetica, sans-serif;
+    FONT-SIZE: xx-small;
+    FONT-WEIGHT: normal;
+    LETTER-SPACING: normal;
+    TEXT-TRANSFORM: none;
+    WORD-SPACING: normal;
+}
+
+H1, H2, H3, H4, H5, TH, THEAD, TFOOT
+{
+    COLOR: #000000;
+}
+H1	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	2em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H2	{	
+	font-family:  Arial, Verdana, Helvetica, sans-serif;
+	font-size:	large;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H3	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight:	500;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H4	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	1.33em;
+	font-weight:	500;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H5, DT	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	1em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H6	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	.8em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+TFOOT, THEAD	{	
+	font-size:	1em;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	font-family: Arial, Helvetica, sans-serif;
+	}	
+		
+TH	{	
+	vertical-align:	baseline;
+	font-size:	1em;
+	font-weight:	bold;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	font-family: Arial, Helvetica, sans-serif;
+	}	
+
+
+A:link	{	
+	text-decoration:	none;
+	color:	#3333cc;
+	}	
+		
+A:visited	{	
+	text-decoration:	none;
+	color:	#333399;
+	}	
+		
+A:active	{	
+	text-decoration:	none;
+	color:	#333399;
+	}	
+		
+A:hover	{	
+	text-decoration:	underline;
+	color:	#3333cc;
+	}
+	
+SMALL	{	
+	font-size:	.7em;
+	}	
+
+BIG	{	
+	font-size:	1.17em;
+	}	
+
+BLOCKQUOTE, PRE	{	
+	font-family:	Courier New, monospace;
+	}	
+	
+
+UL LI	{	
+	list-style-type:	square ;
+	}	
+
+UL LI LI	{	
+	list-style-type:	disc;
+	}	
+
+UL LI LI LI	{	
+	list-style-type:	circle;
+	}	
+	
+OL LI	{	
+	list-style-type:	decimal;
+	}	
+
+OL OL LI	{	
+	list-style-type:	lower-alpha;
+	}	
+
+OL OL OL LI	{	
+	list-style-type:	lower-roman;
+	}	
+	
+
+img        { border-style: none }
+
+
+
+/* ======================== */
+/* Default.htm styles */
+/* ======================== */
+
+.header
+{
+	width: 800px;
+	text-align: left;
+}
+
+/* Banner Images */
+.leftlogoimage
+{
+	width: 166px;
+	border-style: none;
+	background-color: #0000CC;
+}
+
+
+.logoimage
+{
+	width: 468px;
+	border-style: none;
+}
+
+
+.rightlogoimage
+{
+	width: 166px;
+	border-style: none;
+}
+
+/* Subscribe */
+.subscribe			{ color: White; }
+.subscribeleft		{ width: 5px;	}
+.subscriberight		{ width: 5px;	}
+.subscribetop		{ height: 5px;	}
+.subscribebottom	{ height: 0px;	}
+.subscribeemail
+{
+	width: 128px;
+	font-size: xx-small;
+	color: #0000CC;
+}
+.subscribelink:link
+{
+	font-size: xx-small;
+	color: White;
+}
+.subscribelink:visited
+{
+	font-size: xx-small;
+	color: White;
+}
+
+.good_launch_guide_image
+{
+	  border-width: 0px; 
+}
+
+/* Menu */
+.menuimage
+{
+	height: 28px;
+	border-style: none;
+}
+
+.menu
+{
+	width: 520px;
+	text-align: left;
+}
+
+/*
+.tableframe
+{
+	width: 800px;
+	border: solid 1px black;
+}
+*/
+.leftframe
+{
+}
+
+.rightframe
+{
+	width: 160px;
+	vertical-align: top;
+	font-size: x-small;
+}
+
+
+
+/* ======================== */
+/* index.aspx styles		*/
+/* ======================== */
+
+
+
+
+
+
+
+/* Error */
+.error
+{
+	width: 800px;
+	height: 0px;
+	color: Red;
+	border-style:solid;
+	border-width:thin;
+	border-color: Red;
+	font-size: x-small;
+	overflow:scroll;
+}
+
+
+/* Error */
+.emailerror
+{
+	color: Red;
+	border-style:solid;
+	border-width:thin;
+	border-color: Red;
+	font-size: x-small;
+}
+
+
+/* TODO: is menuuserspace still used? */
+.menuuserspace
+{
+	width: 50px;
+}
+.user
+{
+	width: 200px;
+	font-size: xx-small;
+	text-align: right;
+	border-bottom-style: solid;
+	border-color: Black;
+	border-width: 1px;
+}
+
+
+
+
+/* ---------------------- */
+/*    MAP + NAV           */
+/* ---------------------- */
+
+.tabs
+{
+	border-style: none;
+	vertical-align: bottom;
+}
+
+.righttabs
+{
+	width: 250px;
+	border-bottom-style: solid;
+	border-color: Black;
+	border-width: 1px;
+}
+
+.upperpane
+{
+	border-style: none;
+	width: 650px;
+}
+
+.lowerpane
+{
+	border-top-style: none;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-color: Black;
+	border-width: 1px;
+		
+}
+
+.map
+{
+	border-top-style: solid;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	
+	border-width: 1px;
+	border-color: black;
+	font-size: xx-small;
+	text-align: left;
+}
+
+
+.mapdiv
+{
+	width: 642px;
+	height: 350px;
+}
+
+
+.infoline
+{
+	height: 20px;
+	border-top-style: solid;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	border-width: 1px;
+	border-color: Black;
+	width: 650px;
+}
+.info
+{
+	color: Blue;
+	font-size:xx-small;
+	width: 520px;
+}
+.indicator1
+{
+	background-color: #EEEEFF;
+	width: 10px;
+	font-size:xx-small;
+	visibility: hidden;
+}
+.indicator2
+{
+	background-color: #DDDDFF;
+	width: 10px;
+	font-size:xx-small;
+	visibility: hidden;
+}
+.indicator3
+{
+	background-color: #CCCCFF;
+	width: 10px;
+	font-size:xx-small;
+	visibility: hidden;
+}
+
+
+.addbutton
+{
+	width: 300px;	
+	height: 30px;
+	font-size:x-small;
+	border-style:solid;
+	border-width:thin;
+	border-color: grey;
+}
+
+.addarticle
+{
+	background-color:Red;
+}
+
+
+.searchbox
+{
+	width: 200px;	
+	font-size:x-small;
+}
+
+.footer
+{
+	width: 800px;
+	text-align: center;
+	font-size: xx-small;
+}
+
+/* ---------------------- */
+/*    DISPLAY PANES       */
+/* ---------------------- */
+
+/*
+.panetab
+{
+	font-size:x-small;
+	
+	border-style:solid;
+	border-width:thin;
+	border-color: Grey;
+}
+*/
+.pane
+{
+	width: 485px;
+	border-top-style: solid;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	border-width: 1px;
+	border-color: black;
+}
+
+/* Main Tab Divs */
+.article
+{
+	overflow: auto;
+	height: 500px;
+	width: 650px;
+}
+.results
+{
+	overflow: auto;
+	height: 450px;
+	width: 650px;
+}
+.filters
+{
+	overflow: auto;
+	height: 500px;
+	width: 650px;
+	font-size:x-small;
+}
+.search
+{
+	width: 300px;	
+	height: 50px;
+	font-size:xx-small;
+}
+
+
+.resultstable
+{
+	width: 650px;
+}
+.resultscontrols
+{
+	font-size: xx-small;
+}
+.resultsinfo
+{
+	font-size: xx-small; 
+}
+.resultsline0
+{
+	background-color: #EEEEFF;
+}
+.resultsline1
+{
+	background-color: #DDDDFF;
+}
+
+.resultsname
+{
+	font-size: x-small;
+	width: 150px;
+}
+.resultsdescription
+{
+	font-size: xx-small;
+	width: 200px;
+	text-align: left;
+}
+.resultsimagecell
+{
+	width: 100px;
+	text-align: right;
+}
+.resultsimage
+{
+	width: 50px;
+	border: none;
+}
+.resultslink
+{
+	font-size: xx-small;
+	width: 100px;
+	text-align: center;
+}
+
+
+
+
+
+/* ======================== */
+/* boatlaunch.js styles		*/
+/* ======================== */
+
+.small
+{
+	font-size:xx-small;
+}
+
+.mapnotsupported
+{
+	font-size:xx-small;
+}
+
+.popupheader
+{
+	font-size:x-small;
+	font-weight: bold;
+}
+.popupbody
+{
+	font-size:x-small;
+}
+
+
+
+
+
+/* ======================== */
+/* xsl styles				*/
+/* ======================== */
+
+/* DISPLAY XSL   */
+.displayheading
+{
+	font-size:   x-small;
+	font-weight: bold;
+}
+.displaylabel
+{
+	width:150px;
+	font-size:x-small;
+	color: Gray;
+}
+.displaydata
+{
+	font-size:x-small;
+}
+.displayimage
+{
+	border-style: none;
+}
+
+/* ADD EDIT XSL  */
+.addeditheading
+{
+	font-size:   x-small;
+	font-weight: bold;
+}
+.addeditlabel
+{
+	width:200px;
+	font-size:x-small;
+}
+.addeditdata
+{
+	font-size:x-small;
+}
+.iload
+{
+	width: 50px;
+	height: 10px;
+}
+
+
+
+/* ======================== */
+/* terms.html styles		*/
+/* ======================== */
+
+.termsandconditions
+{
+	font-size: xx-small;
+	font-style: italic;
+}
+
+
+/* ======================== */
+/* profile.aspx styles		*/
+/* ======================== */
+
+.profiletable
+{
+	background-color: #DFDFDF;
+	width: 468px;
+	height: 500px;
+	border-top-style: none;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: Black;
+}
+.profiletabs
+{
+	border-style: none;
+	width: 468px;
+}
+.profileblock
+{
+	font-size: x-small;
+	vertical-align: top;
+}
+.profilehidden
+{
+	visibility: hidden;
+	width: 10px;
+}
+.profiletext
+{
+	font-size: x-small;
+}
+.profilelabel
+{
+	font-size: x-small;
+	width: 200px;
+	vertical-align: top;
+}
+.profiledata
+{
+	font-size: xx-small;
+	color: #0000CC;
+}
+.profilemap
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: Black;
+	width: 440px;
+	height: 250px;
+}
+.profilesample
+{
+	font-size: xx-small;
+	color: #0000CC;
+}
+.profilefilterlabel
+{
+	width: 300px;
+	font-size: xx-small;
+}
+
+.profilefilter
+{
+	text-align: center;
+}
+
+.profilefilterleft
+{
+	font-size: xx-small;
+	text-align: right;
+	padding-right: 20px;
+}
+.profilefilterright
+{
+	font-size: xx-small;
+	text-align: center;
+}
+.profilefiltercheckbox
+{
+	width: 150px;
+	text-align: center;
+}
+
+
+.profilearticlestable
+{
+	border: solid 1px black;
+	font-size: x-small;
+}
+.profilearticlestable
+{
+	border: none;
+	font-size: x-small;
+}
+
+
+/* ======================== */
+/* login.aspx styles		*/
+/* ======================== */
+
+.logonbold
+{
+	font-size: x-small;
+	font-weight: bold;
+}
+
+.logontext
+{
+	font-size: x-small;
+}
+.logonlabel
+{
+	font-size: x-small;
+	width: 180px;
+}
+.logondata
+{
+	font-size: x-small;
+}
+
+.logonforgotprompt
+{
+	font-size: xx-small;
+}
+.logonforgot
+{
+	font-size: x-small;
+	font-style: italic ;
+	color: Gray;
+}
+.logonforgotsuccess
+{
+	font-size: x-small;
+	color: Blue; 
+}
+.logonforgotfailure
+{
+	font-size: x-small;
+	color: Red; 
+}
+
+
+
+.embed
+{
+	font-size: x-small;
+}
+.embedcode
+{
+	font-size: x-small;
+	color: #0000CC;
+}
+
+.help
+{
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: x-small;
+}
+.helptitle
+{
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: bold;
+}
+.helpsmall
+{
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: xx-small;
+	font-style:italic;
+}
+
+
+.banner
+{
+	border: solid 1px black;
+	text-align: center;
+}
+.bannertext
+{
+		font-size: xx-small;
+}
+.bannerimage
+{
+	border: none;
+}
+

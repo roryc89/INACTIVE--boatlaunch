@@ -1,0 +1,125 @@
+/*
+--------------------------------------------------
+#
+#   Boatlaunch ltd
+#   Copyright 2006
+#
+#   Original Author: Paul Bullivant
+#   Original Date Created: 28 April 2006
+#
+#   Description:
+#       Style Sheet required
+#       in SmartBook implementations
+#
+#
+#   $Author: paul $
+#   $Date: 2008/10/06 08:55:54 $
+#   $Revision: 1.2 $
+#
+# --------------------------------------------------
+*/
+
+/*
+These styles are used by the SmartBook internal code.
+They must be defined for the correct formatting of the website.
+*/
+
+
+
+/* -------------------- */
+/* TERMS AND CONDITIONS */
+/* -------------------- */
+.termscheckboxtext
+{
+	font-weight: bold;
+	font-size: x-small;
+}
+
+/* ---------- */
+/* HYPERLINKS */
+/* ---------- */
+.editlink
+{
+	color:	#333399;
+	font-size: xx-small;	
+}
+.addlink
+{
+	color:	#333399;
+	font-size: xx-small;	
+}
+.deletelink
+{
+	color:	#333399;
+	font-size: xx-small;	
+}
+.emailarticlelink
+{
+	color:	#333399;
+	font-size: xx-small;	
+}
+.linktoarticlelink
+{
+	color:	#333399;
+	font-size: xx-small;	
+}
+.centrezoomlink
+{
+	color:	#333399;
+	font-size: xx-small;	
+}
+.favouriteslink
+{
+	color:	#333399;
+	font-size: xx-small;	
+}
+
+
+
+/* ---------------- */
+/* SECTION HEADINGS */
+/* ---------------- */
+.addsectionheading
+{
+		font-size: small;
+}
+.editsectionheading
+{
+		font-size: small;
+}
+.displaysectionheading
+{
+	font-size: small;
+}
+
+/*Categories*/
+.category
+{
+	font-size: x-small;
+}
+
+
+
+.infoPopUp
+{
+	background-color: #333399;
+	border-width: thin;
+	border-color: White;
+	border-style: solid;
+	color: White;
+	text-align:center;
+	font-size: x-small;
+	padding: 2px 2px 2px 2px;
+}
+
+
+/* Display Article/Advert */
+.article
+{
+	vertical-align: top;
+}
+.advert
+{
+	vertical-align: top;
+	/*padding: 0px 30px 0px 0px;*/
+}
